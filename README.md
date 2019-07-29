@@ -1,0 +1,2 @@
+# cui-characterful-hr-assistants
+In her thesis Alina Megos evaluated the design and user experience of a voice-first Conversational Interface for an HR Alexa Skill where the user interaction is based on a multi-character bot-persona approach. Besides carefully designing the visual appearance of the avatars, she used methods like Personality Spectrum and the Big Five Factor Model to craft the personality traits of the characters. Taking advantage of the cui-prototyping-tool she tested assumptions and evaluated her concept in short iterations.
