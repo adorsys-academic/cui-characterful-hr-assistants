@@ -1,0 +1,20 @@
+{
+  "name": "cui-hr-buddies",
+  "version": "0.0.1",
+  "description": "bachelor thesis conversational user interface with multicharakters for HR",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ame",
+  "license": "ISC",
+  "dependencies": {
+    "alexa-sdk": "^1.0.25",
+    "body-parser": "^1.19.0",
+    "express": "^4.16.4",
+    "ask-sdk-model": "1.9.0",
+    "ask-sdk-core": "2.6.0"
+  },
+  "repository": {}
+}

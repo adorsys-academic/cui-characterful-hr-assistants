@@ -1,0 +1,33 @@
+{
+    "hrBotData": {
+        "type": "object",
+        "title": "HR Team",
+        "graphics": {
+            "contentDescription": null,
+            "smallSourceUrl": null,
+            "largeSourceUrl": null,
+            "sources": [
+                {
+                    "url": "https://compassionate-moore.bespoken.link/pictures/hannah.svg",
+                    "size": "small",
+                    "widthPixels": 0,
+                    "heightPixels": 0
+                },
+                {
+                    "url": "https://compassionate-moore.bespoken.link/pictures/michael.svg",
+                    "size": "small",
+                    "widthPixels": 0,
+                    "heightPixels": 0
+                },
+                {
+                    "url": "https://compassionate-moore.bespoken.link/pictures/silvia.svg",
+                    "size": "small",
+                    "widthPixels": 0,
+                    "heightPixels": 0
+                }
+            ]
+        },
+        "infoUrl": "https://compassionate-moore.bespoken.link/pictures/info_icon.svg",
+        "hintText": "Try, \"select Hannah!\""
+    }
+}

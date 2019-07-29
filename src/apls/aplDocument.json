@@ -1,0 +1,132 @@
+{
+    "type": "APL",
+    "version": "1.0",
+    "settings": {},
+    "theme": "dark",
+    "import": [],
+    "resources": [],
+    "styles": {},
+    "onMount": [],
+    "graphics": {},
+    "commands": {},
+    "layouts": {},
+    "mainTemplate": {
+        "parameters": [
+            "payload"
+        ],
+        "items": [
+            {
+                "type": "Container",
+                "items": [
+                    {
+                        "type": "Frame",
+                        "width": "100vw",
+                        "height": "100vh",
+                        "items": [
+                            {
+                                "type": "Container",
+                                "items": [
+                                    {
+                                        "type": "Container",
+                                        "width": "100vw",
+                                        "height": "80vh",
+                                        "items": [
+                                            {
+                                                "type": "Image",
+                                                "width": "20vw",
+                                                "height": "62vh",
+                                                "source": "${payload.hrBotData.graphics.sources[0].url}",
+                                                "position": "absolute",
+                                                "left": "15vw",
+                                                "top": "80px"
+                                            },
+                                            {
+                                                "type": "Image",
+                                                "width": "20vw",
+                                                "height": "80vh",
+                                                "source": "${payload.hrBotData.graphics.sources[1].url}",
+                                                "position": "absolute",
+                                                "left": "40vw"
+                                            },
+                                            {
+                                                "type": "Image",
+                                                "width": "20vw",
+                                                "height": "68vh",
+                                                "source": "${payload.hrBotData.graphics.sources[2].url}",
+                                                "position": "absolute",
+                                                "left": "65vw",
+                                                "top": "47px"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "Container",
+                                        "width": "100vw",
+                                        "height": "25vh",
+                                        "items": [
+                                            {
+                                                "type": "Image",
+                                                "width": "50px",
+                                                "height": "50px",
+                                                "source": "${payload.hrBotData.infoUrl}",
+                                                "position": "absolute",
+                                                "left": "235px",
+                                                "top": "50px"
+                                            },
+                                            {
+                                                "type": "Text",
+                                                "width": "200",
+                                                "textAlign": "center",
+                                                "fontSize": "30dp",
+                                                "text": "Hannah",
+                                                "position": "absolute",
+                                                "left": "155px"
+                                            },
+                                            {
+                                                "type": "Image",
+                                                "width": "50px",
+                                                "height": "50px",
+                                                "source": "${payload.hrBotData.infoUrl}",
+                                                "position": "absolute",
+                                                "left": "490px",
+                                                "top": "50px"
+                                            },
+                                            {
+                                                "type": "Text",
+                                                "width": "200",
+                                                "textAlign": "center",
+                                                "fontSize": "30dp",
+                                                "text": "Michael",
+                                                "position": "absolute",
+                                                "left": "415px"
+                                            },
+                                            {
+                                                "type": "Image",
+                                                "width": "50px",
+                                                "height": "50",
+                                                "source": "${payload.hrBotData.infoUrl}",
+                                                "position": "absolute",
+                                                "left": "735px",
+                                                "top": "50px"
+                                            },
+                                            {
+                                                "type": "Text",
+                                                "width": "200",
+                                                "textAlign": "center",
+                                                "fontSize": "30dp",
+                                                "text": "Silvia",
+                                                "position": "absolute",
+                                                "left": "660px"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "backgroundColor": "#3a75ba"
+                    }
+                ]
+            }
+        ]
+    }
+}
